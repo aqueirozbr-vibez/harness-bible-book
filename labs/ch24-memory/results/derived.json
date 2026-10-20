@@ -1,0 +1,25 @@
+{
+  "memory_budget_tokens": 150,
+  "fact_tokens": 35,
+  "facts_per_step": 4,
+  "p_wrong_fact_surfaces_in_task_p0.2": 0.914,
+  "p_wrong_fact_surfaces_in_task_p0.5": 1.0,
+  "expected_tasks_touched_per_100_c0.0": 91.4,
+  "expected_tasks_touched_per_100_c0.9": 9.1,
+  "expected_tasks_touched_per_100_c1.0": 0.0,
+  "episodes_per_month": 1500,
+  "candidate_facts_per_month": 450,
+  "accepted_facts_per_month": 315,
+  "semantic_facts_est": 40000,
+  "episodic_per_year": 18000,
+  "procedural_items": 50,
+  "lifetimes": {
+    "working": "task",
+    "episodic": "12 months, then summary",
+    "semantic": "until superseded; annual review",
+    "procedural": "versioned; no expiry"
+  },
+  "episode_text_retention_days": 30,
+  "review_error_rate_per_1000": 1,
+  "timestamp": "2026-09-23T11:00:11.649247+00:00"
+}

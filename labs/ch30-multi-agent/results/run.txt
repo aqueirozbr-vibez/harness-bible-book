@@ -1,0 +1,9 @@
+tokens: single 78,000 (13 calls); multi 90,000 (15 calls); ratio 1.15× (Anthropic average 3.75×; this decomposition is small and non-overlapping)
+intersection: child scope ['P-101-U3'] (chapter ['P-101-U3']); parent budget now 9 (chapter 9); child action draft; comms False
+over-budget delegation refused: child budget exceeds parent's remaining budget
+good summary accepted: True
+leaky summary refused: ['answer exceeds summary budget (context leaked)', "support P-104-U2#bom#1 outside child scope ['P-101-U3']", 'child exceeded its call budget']
+child policy: submit denied, notify denied, out-of-scope read denied, in-scope read allowed: True
+defects missed by both checkers: correlated 0.151 (chapter ~0.15); independent 0.054 (chapter 0.04)
+multiplier: 3.75× → scenario task 78,000 → 292,500 tokens; $0.159 → $0.595; break-even ΔQ 0.29 pts
+Lab 30: REPRODUCED

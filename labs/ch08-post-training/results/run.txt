@@ -1,0 +1,10 @@
+DPO toy: mean loss first 5 steps 0.692 → last 5 steps 0.545; P(winners) 0.954, P(losers) 0.046
+DPO loss at margin  0: 0.6931 (chapter 0.6931) OK
+DPO loss at margin 20: 0.1269 (chapter 0.1269) OK
+DPO loss at margin 50: 0.0067 (chapter 0.0067) OK
+GRPO advantages: [1.291, -0.775, -0.775, 1.291, -0.775, -0.775, -0.775, 1.291] OK
+LoRA r= 8 all projections:   21.0M (chapter 21.0M) OK
+LoRA r=16 all projections:   41.9M (chapter 41.9M) OK
+LoRA r=64 all projections:  167.8M (chapter 167.8M) OK
+reward hacking: proxy 0.176 → 0.959 (rising); true quality peaked at step 90 at 0.622, ended at 0.000 (fell)
+Lab 08: REPRODUCED

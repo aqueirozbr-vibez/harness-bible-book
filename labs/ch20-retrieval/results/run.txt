@@ -1,0 +1,9 @@
+recall@3 [hybrid]: paraphrase-en 1.00  identifier-en 1.00  paraphrase-pt 1.00
+recall@3 [hybrid+rerank]: paraphrase-en 1.00  identifier-en 1.00  paraphrase-pt 1.00
+stale-revision rate: with currency filter 0.0  without 0.6667
+restricted chunk excluded by clearance filter: True
+injected document surfaces when its type is in scope (retrieval delivers content; ch28 governs action): True
+unanswerable question abstains: True (top re-rank score 0.14 below threshold)
+citation coverage: {'claims': 6, 'cited_valid': 3, 'coverage': 0.5} (one stale citation rejected)
+chunks per procedure at 40-token target (one per section): 3
+Lab 20: REPRODUCED

@@ -1,0 +1,3 @@
+# Lab 01 — Tokens and tokenizers
+
+Trains the chapter's byte-level BPE (`bpe.py`, extracted verbatim from Chapter 01) on a small synthetic English/Portuguese maintenance corpus (labelled synthetic, seed 1) at three vocabulary sizes. Reproduces round-trip fidelity, identifier fragmentation versus ordinary words, the fall in tokens per 1,000 words as vocabulary grows, the pre-tokenizer boundary rule, and the embedding-matrix arithmetic of 01.3. CPU, under a minute. `python run.py`; exit 0 = reproduced. The per-language ratio is not measured here — the corpus is too small; the reader measures it with the production tokenizer on real documents (01.4).

@@ -1,0 +1,12 @@
+{
+  "tasks": 200,
+  "records_per_task": 49.0,
+  "chain": true,
+  "tamper_detected": true,
+  "strip_ok": true,
+  "completeness_gap_found": [
+    8
+  ],
+  "untagged_share": 0.0,
+  "timestamp": "2026-09-23T11:00:12.235642+00:00"
+}

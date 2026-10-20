@@ -1,0 +1,16 @@
+fp16 weights GB          chapter      141  model      141  OK
+fp16 floor ms (2 GPU)    chapter     21.1  model     21.1  OK
+crossover batch          chapter      295  model      295  OK
+free GB                  chapter       19  model       19  OK
+max seqs @6K fp16        chapter        9  model        9  OK
+max seqs @32K fp16       chapter        1  model        1  OK
+tps kv-capped fp16       chapter      427  model      427  OK
+$/M @70% fp16            chapter     5.56  model     5.56  OK
+max seqs @6K fp8 all     chapter       93  model       93  OK
+tps fp8 all              chapter     8826  model     8826  OK
+$/M @70% fp8 all         chapter     0.27  model     0.27  OK
+spec a=0.8 k=3           chapter     2.95  model     2.95  OK
+spec a=0.9 k=5           chapter     4.69  model     4.69  OK
+prefill 8K @40%          chapter     2.92  model     2.92  OK
+cache utilization, 500 sequences 500–8192 tokens: contiguous-at-max 54.0%  paged(16) 99.8%  (Kwon et al. measured 20–38% in prior systems)
+Lab 10: REPRODUCED

@@ -1,0 +1,8 @@
+pass8_independent      chapter 0.0177  derived 0.0177  OK
+per_attempt_for_25     chapter 0.841  derived 0.841  OK
+relative_drop          chapter 59  derived 59  OK
+opus_spread_pp         chapter 9.5  derived 9.5  OK
+task_0.95^11           chapter 0.57  derived 0.57  OK
+task_0.99^11           chapter 0.9  derived 0.9  OK
+wilson50_low           chapter 0.462  derived 0.462  OK
+Lab 16 part 1: REPRODUCED

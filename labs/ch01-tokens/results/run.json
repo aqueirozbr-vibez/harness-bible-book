@@ -1,0 +1,57 @@
+{
+  "results": {
+    "300": {
+      "tokens_per_1000_words": 4549,
+      "tag_tokens": {
+        "P-101": 4,
+        "MP-0417": 6,
+        "SEAL-88": 7,
+        "ISO 14224": 9
+      },
+      "word_tokens": {
+        "pump": 4,
+        "seal": 2,
+        "permit": 2,
+        "bomba": 5,
+        "procedimento": 5
+      },
+      "round_trip": true
+    },
+    "600": {
+      "tokens_per_1000_words": 2225,
+      "tag_tokens": {
+        "P-101": 3,
+        "MP-0417": 3,
+        "SEAL-88": 3,
+        "ISO 14224": 3
+      },
+      "word_tokens": {
+        "pump": 1,
+        "seal": 1,
+        "permit": 1,
+        "bomba": 1,
+        "procedimento": 1
+      },
+      "round_trip": true
+    },
+    "1200": {
+      "tokens_per_1000_words": 2225,
+      "tag_tokens": {
+        "P-101": 3,
+        "MP-0417": 3,
+        "SEAL-88": 3,
+        "ISO 14224": 3
+      },
+      "word_tokens": {
+        "pump": 1,
+        "seal": 1,
+        "permit": 1,
+        "bomba": 1,
+        "procedimento": 1
+      },
+      "round_trip": true
+    }
+  },
+  "boundary_ok": true,
+  "timestamp": "2026-09-23T10:59:03.785426+00:00"
+}

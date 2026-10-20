@@ -1,0 +1,11 @@
+Wilson n=  20 p=0.80: (0.584, 0.919)  chapter [0.584, 0.919]  OK
+Wilson n= 100 p=0.80: (0.711, 0.867)  chapter [0.711, 0.867]  OK
+Wilson n= 300 p=0.80: (0.751, 0.841)  chapter [0.751, 0.841]  OK
+Wilson n=1000 p=0.80: (0.774, 0.824)  chapter [0.774, 0.824]  OK
+power n= 100 (0.80 vs 0.85): 0.14  chapter 0.14  OK
+power n= 300 (0.80 vs 0.85): 0.43  chapter 0.47  OK
+power n=1000 (0.80 vs 0.85): 0.91  chapter 0.88  OK
+kappa example: agreement 0.85, marginals judge 0.60 human 0.65, kappa 0.681 (chapter 0.681) OK
+Krippendorff alpha on the same two raters: 0.682 (close to kappa: True)
+identical systems bootstrap: (0.000, 0.000) includes 0: True
+Lab 12: REPRODUCED

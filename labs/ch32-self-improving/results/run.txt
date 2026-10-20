@@ -1,0 +1,8 @@
+ranked clusters: [('description', 68.4), ('citation_currency', 66.0), ('permit_rule', 45.0), ('parts_bom', 28.0), ('abbreviation', 24.8)]
+symptom_field (real)   dev +0.085 [+0.058,+0.113]  holdout +0.040 [+0.010,+0.080]  → merge: interval beats baseline; holdout confirms
+guide_rule (overfit)   dev +0.090 [+0.062,+0.117]  holdout +0.000 [+0.000,+0.000]  → reject: holdout does not confirm the gain (overfit)
+wording (neutral)      dev -0.005 [-0.020,+0.010]  holdout +0.000 [-0.030,+0.030]  → reject: development gain not distinguishable from zero
+policy-bundle branch with a real gain → safety_review
+versions: 1.4.0 → 1.5.0 (minor) → 1.5.1 (patch) → 2.0.0 (major)
+expected gain from the top fix: rejection rate 8.0% → 5.72%; branch cost k=3 $32.4
+Lab 32: REPRODUCED

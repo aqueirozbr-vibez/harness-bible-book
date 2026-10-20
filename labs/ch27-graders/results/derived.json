@@ -1,0 +1,32 @@
+{
+  "grader_call_tokens_in": 1200,
+  "grader_call_tokens_out": 120,
+  "grader_cost_small_usd": 0.00054,
+  "grader_cost_frontier_usd": 0.0027,
+  "pairwise_both_orders_cost_small": 0.00108,
+  "kappa_se_n200_approx": 0.054,
+  "kappa_example": 0.681,
+  "position_bias_note": "both orders, agreement required; disagreements \u2192 tie or human",
+  "ci_items_per_class": 300,
+  "ci_attempts": 4,
+  "ci_cost_per_class_run": 10.8,
+  "ci_cost_full_run_11_classes": 119,
+  "gate_halfwidth_n300_p80": 4.5,
+  "swe_bench_verified_items": 500,
+  "tau_bench_retail_pass1": 60.4,
+  "tau_bench_retail_pass8_lt": 25,
+  "agentdojo_tasks": 97,
+  "agentdojo_cases": 629,
+  "gaia_questions": 466,
+  "gaia_levels": 3,
+  "gaia_human_pct": 92,
+  "gaia_gpt4_plugins_pct": 15,
+  "zheng_agreement": [
+    85,
+    81
+  ],
+  "judgebiasbench_error_gt": 50,
+  "kappa_retire": 0.6,
+  "alpha_reliable": 0.8,
+  "timestamp": "2026-09-23T11:00:11.863037+00:00"
+}

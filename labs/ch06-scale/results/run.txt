@@ -1,0 +1,13 @@
+Llama 3.1 405B 6ND = 3.799e+25 vs Meta 3.8e25: -0.02%
+C=1e+21: optimal tokens/param   50.0 (chapter 50.0)  N=1.83e+09 D=9.12e+10  OK
+C=1e+23: optimal tokens/param   77.6 (chapter 77.6)  N=1.47e+10 D=1.14e+12  OK
+C=1e+25: optimal tokens/param  122.7 (chapter 122.7)  N=1.17e+11 D=1.43e+13  OK
+→ published Approach-3 constants imply 50–123, not ~20; see Epoch AI 2024 replication (chapter 06.2)
+at Llama 3 8B compute 7.23e+23: fit-optimal N=3.55e+10 D=3.39e+12 loss 1.923; 8B on 15T loss 1.948; serve-cost ratio 4.4x
+DeepSeek-V3        memory   1342 GB    74 GFLOP/token  ratio  18.1  OK
+Mixtral 8x7B       memory     93 GB    26 GFLOP/token  ratio   3.6  OK
+Llama 4 Maverick   memory    800 GB    34 GFLOP/token  ratio  23.5  OK
+GPT-3        tokens/param     1.7 (chapter 1.7) OK
+Chinchilla   tokens/param    20.0 (chapter 20.0) OK
+Llama 3 8B   tokens/param  1868.0 (chapter 1868.0) OK
+Lab 06: REPRODUCED

@@ -1,0 +1,10 @@
+random-vector cosine std at d=32: 0.1814 vs 1/sqrt(d)=0.1768 OK
+random-vector cosine std at d=384: 0.0511 vs 1/sqrt(d)=0.0510 OK
+random-vector cosine std at d=1024: 0.0311 vs 1/sqrt(d)=0.0312 OK
+paraphrase+tag queries recall@3: vector 1.00 lexical 1.00 hybrid 1.00
+tag-only queries recall@1:       vector 0.70 lexical 1.00 hybrid 1.00
+vector top-3 for 'procedure for P-101': ['MP-101-en-r7', 'MP-106-en-r7', 'MP-116-en-r7']
+without revision filter: ['MP-101-en-r6', 'MP-101-en-r7', 'MP-102-en-r6', 'MP-102-en-r7']
+with current-revision filter: ['MP-101-en-r7', 'MP-102-en-r7', 'MP-103-en-r7', 'MP-104-en-r7']
+tag confusion under vector-only retrieval observed: True
+Lab 02: REPRODUCED

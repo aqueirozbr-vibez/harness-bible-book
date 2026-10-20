@@ -1,0 +1,31 @@
+{
+  "prefix_composition": {
+    "system_guide": 800,
+    "task_class_guide": 400,
+    "tool_schemas": 1800,
+    "reference_chunks": 1000
+  },
+  "prefix_total": 4000,
+  "cache_min": 1024,
+  "prefix_over_min_x": 3.9,
+  "prefix_cost_fresh_usd": 0.005,
+  "prefix_cost_cached_usd": 0.0005,
+  "prefix_monthly_fresh": 300,
+  "prefix_monthly_cached": 30,
+  "example_tokens_each": 250,
+  "three_examples_tokens": 750,
+  "three_examples_monthly_if_fresh": 56,
+  "three_examples_monthly_if_cached": 6,
+  "rules_12_tokens": 360,
+  "rules_12_share_of_4000_pct": 9.0,
+  "rules_30_tokens": 900,
+  "rules_30_share_of_4000_pct": 22.5,
+  "rules_60_tokens": 1800,
+  "rules_60_share_of_4000_pct": 45.0,
+  "rules_total": 12,
+  "rules_with_sensor": 9,
+  "rules_enforced_pct": 75,
+  "drift_timestamp_at_200_cached_tokens_lost": 3800,
+  "drift_loss_pct": 95,
+  "timestamp": "2026-09-23T11:00:10.615389+00:00"
+}

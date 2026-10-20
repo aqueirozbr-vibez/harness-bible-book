@@ -1,0 +1,28 @@
+{
+  "calibration": {
+    "c1": {
+      "kappa": 0.755,
+      "status": "ok"
+    },
+    "c2": {
+      "kappa": 0.539,
+      "status": "retire"
+    }
+  },
+  "ties": 0.714,
+  "gate": [
+    {
+      "diff": 0.0233,
+      "lo": -0.03,
+      "hi": 0.0767,
+      "verdict": "merge"
+    },
+    {
+      "diff": -0.06,
+      "lo": -0.09,
+      "hi": -0.0367,
+      "verdict": "block"
+    }
+  ],
+  "timestamp": "2026-09-23T11:00:11.965674+00:00"
+}

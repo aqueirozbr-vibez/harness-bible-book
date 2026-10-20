@@ -1,0 +1,11 @@
+p=0.2: binary +0.20  penalty1 -0.60  penalty3 -2.20  OK
+p=0.5: binary +0.50  penalty1 +0.00  penalty3 -1.00  OK
+p=0.8: binary +0.80  penalty1 +0.60  penalty3 +0.20  OK
+abstention threshold at $150/$6: 0.960 (chapter 0.96) OK
+ECE calibrated 0.0061 (chapter 0.0061); overconfident 0.1809 (chapter 0.1809) OK
+selective t=0.5: coverage 0.698 accuracy 0.758 (chapter 0.698, 0.758) OK
+selective t=0.7: coverage 0.433 accuracy 0.849 (chapter 0.433, 0.849) OK
+selective t=0.9: coverage 0.132 accuracy 0.943 (chapter 0.132, 0.943) OK
+overconfident t=0.7 accuracy 0.720 (chapter 0.72) OK
+harness_confidence routing: True
+Lab 13: REPRODUCED

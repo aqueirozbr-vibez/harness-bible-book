@@ -1,0 +1,10 @@
+{
+  "shape_ok": true,
+  "causal": true,
+  "reconciliation": {
+    "Llama 3 8B": 0.0,
+    "Llama 3 70B": -0.07,
+    "Llama 3 405B": -0.01
+  },
+  "timestamp": "2026-09-23T10:59:09.796808+00:00"
+}

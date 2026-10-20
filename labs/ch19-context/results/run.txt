@@ -1,0 +1,6 @@
+tool result: raw 7246 tokens → admitted 13 tokens; reference kept: True
+compacted window by iteration (1,4,8,16): [4986, 5005, 5031, 5086]  (budget ≤ 5850)
+uncompacted window by iteration (1,4,8,16): [6695, 11151, 17092, 28974]  growth 4.3× (chapter 4.8×)
+chunk start fraction: compacted 0.77→0.76 (chapter 0.67); uncompacted history-first 0.8→0.95 (chapter 0.93)
+instruction last and compaction within budget: True
+Lab 19: REPRODUCED

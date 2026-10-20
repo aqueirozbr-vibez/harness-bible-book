@@ -1,0 +1,22 @@
+{
+  "n": 2000,
+  "false_positives": 0,
+  "false_negatives": {
+    "schema": 0,
+    "zone_registered": 0,
+    "citation": 0,
+    "permit_rule": 0,
+    "parts_in_bom": 0
+  },
+  "reached_grader_when_defective": 0,
+  "message_rule": true,
+  "order": [
+    "schema",
+    "zone_registered",
+    "citation",
+    "permit_rule",
+    "parts_in_bom",
+    "grader"
+  ],
+  "timestamp": "2026-09-23T11:00:11.774398+00:00"
+}

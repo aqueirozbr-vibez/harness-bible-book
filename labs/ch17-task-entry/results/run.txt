@@ -1,0 +1,9 @@
+clarification rate at structure share 0.0: 0.316 (chapter 0.3) OK
+clarification rate at structure share 0.5: 0.139 (chapter 0.15) OK
+clarification rate at structure share 0.8: 0.052 (chapter 0.06) OK
+webhook resolves without clarification: True
+criteria coverage in the lab template: 5/6 (uncovered: ['description matches reported fault'])
+intent validation (submit / other equipment / email denied; in-scope draft allowed): True
+ask-or-guess break-even at c=0.9: g*=0.972 (chapter 0.972) OK
+ask-or-guess break-even at c=0.5: g*=0.196 (chapter 0.196) OK
+Lab 17: REPRODUCED

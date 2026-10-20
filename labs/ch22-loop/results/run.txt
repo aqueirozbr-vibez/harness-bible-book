@@ -1,0 +1,8 @@
+cap 0: task pass 0.004  step pass 0.598  calls/step 1.00
+cap 3: task pass 0.576  step pass 0.951  calls/step 1.70
+step pass cap3     chapter 0.95  measured 0.951  OK
+calls/step cap3    chapter 1.7  measured 1.7  OK
+task pass cap3     chapter 0.569  measured 0.576  OK
+task pass cap0     chapter 0.004  measured 0.004  OK
+transient error retried without a model call: True
+Lab 22: REPRODUCED

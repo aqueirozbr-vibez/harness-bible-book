@@ -1,0 +1,31 @@
+{
+  "fp16": {
+    "weights_GB": 141.2,
+    "decode_floor_ms": 21.07462686567164,
+    "batch_crossover": 295,
+    "free_GB": 18.8,
+    "max_concurrent_seqs": 9,
+    "decode_tps_at_max_batch": 427.05382436260624,
+    "usd_per_M_tokens": {
+      "0.1": 38.89699649898655,
+      "0.4": 9.724249124746638,
+      "0.7": 5.5567137855695075
+    }
+  },
+  "fp8": {
+    "weights_GB": 70.6,
+    "decode_floor_ms": 10.53731343283582,
+    "batch_crossover": 148,
+    "free_GB": 89.4,
+    "max_concurrent_seqs": 93,
+    "decode_tps_at_max_batch": 8825.779036827196,
+    "usd_per_M_tokens": {
+      "0.1": 1.8821127338219297,
+      "0.4": 0.4705281834554824,
+      "0.7": 0.26887324768884713
+    }
+  },
+  "util_contiguous": 0.539609619140625,
+  "util_paged": 0.998230028543556,
+  "timestamp": "2026-09-23T10:59:58.558991+00:00"
+}

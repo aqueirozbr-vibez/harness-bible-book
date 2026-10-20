@@ -1,0 +1,3 @@
+# Lab 06 — Scale
+
+Runs the chapter's code (`scale.py`, extracted verbatim from Chapter 06). Reproduces the 6·N·D reconciliation against Meta's disclosed 3.8×10²⁵ FLOPs for Llama 3.1 405B; the compute-optimal ratio implied by Hoffmann et al.'s published Approach-3 constants (50 / 78 / 123 tokens per parameter at 10²¹ / 10²³ / 10²⁵ FLOPs — not the paper's ~20 headline, as the chapter reports and the Epoch AI replication explains); the over-training comparison at Llama 3 8B's compute; the MoE memory-versus-compute table; and tokens per parameter for documented runs. CPU, seconds. `python run.py`; exit 0 = reproduced.

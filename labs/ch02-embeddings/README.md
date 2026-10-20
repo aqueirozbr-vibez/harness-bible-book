@@ -1,0 +1,3 @@
+# Lab 02 — Embeddings and representation
+
+Runs the chapter's `Retriever` (`retriever.py`, extracted verbatim from Chapter 02; its embedding is a hashed character-trigram substitute for a learned model, labelled as such) on a synthetic corpus of procedures for twenty pumps in two languages and two revisions (seed 2). Reproduces the 1/√d noise-floor curve, the lexical index's advantage on tag queries, the vector index's confusion of neighbouring tags, the hybrid's coverage of both query types, and deterministic revision filtering. CPU, seconds. `python run.py`; exit 0 = reproduced. The absolute recall numbers are properties of the substitute embedding, not of any real model; the reader's golden set with the production embedding model is the measurement (02.4).

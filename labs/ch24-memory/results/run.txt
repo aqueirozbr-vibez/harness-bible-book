@@ -1,0 +1,6 @@
+episodes: 200; working memory cleared: True
+consolidation: proposed 220, filed 20; document-stated candidates rejected: 200; live P-101 facts 1 (supersession keeps one per predicate)
+wrong fact recurrence over 100 tasks: provenance OFF → 94 tasks touched (chapter ~91.4); provenance ON → filed=False, 0 tasks touched (chapter 0.0)
+provenance enforced 90%: 10.0 of 100 tasks touched (chapter 9.1)
+facts older than a year retired: True
+Lab 24: REPRODUCED

@@ -1,0 +1,10 @@
+records per task: 49 (chapter: 49)
+chain: chain verified
+after tampering a decision record: record 10: hash mismatch
+text events before/after strip: 2600/0; attribute count unchanged: True
+completeness t0: {'tool_calls': 11, 'missing_decision': [], 'missing_span': []}
+completeness with a forgetful component: {'tool_calls': 11, 'missing_decision': [8], 'missing_span': []}
+replay t0: 12 steps; step 6 records: ['span', 'decision', 'tool_call', 'transition', 'span', 'transition']
+attribution by (use_case, team): {('maintenance', 'EA&D'): 9.44700000000009}; untagged share 0.000
+after one untagged task, untagged share 0.0050 > 0: True
+Lab 29: REPRODUCED

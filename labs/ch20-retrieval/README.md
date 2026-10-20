@@ -1,0 +1,3 @@
+# Lab 20 — Retrieval and knowledge
+
+Runs the chapter's retrieval layer (`retrieval.py`, extracted verbatim from Chapter 20; embedding and re-ranker are labelled stand-ins) over a synthetic procedure corpus with revisions, a restricted document, and an injected document (seed 20). Reproduces recall@3 per query type and language, a stale-revision rate of zero with the currency filter and above zero without, exclusion of the restricted chunk by the clearance filter, abstention on an unanswerable question, and citation coverage with a stale citation rejected. CPU, seconds. `python run.py`; exit 0 = reproduced. Absolute recall figures are properties of the stand-ins; the plant's golden set with its production embedding model and re-ranker is the measurement (20.4).

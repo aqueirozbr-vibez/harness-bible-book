@@ -1,0 +1,6 @@
+with rate limit: reviewed 547 (36.5%; chapter 36.5%), STP 0.635 (chapter 0.635); rejection rate 0.121; seeded catch 1.00 on 8; rubber-stamp flags 0; to repair 52, escalated 14; mean wait 0.174 h
+no rate limit:   seeded catch 1.00; rubber-stamp flags 0; rejection rate 0.121
+fatigue model: accuracy at 20/h 0.75 (chapter 0.75), at 30/h 0.55 (chapter 0.55)
+seeded catch at 8/h: 0.945 (360 s each); at 25/h: 0.654 (144 s each) — below the 20 s rubber-stamp floor: True
+queue: λ 3.42/h; one reviewer wait 3.1 min; two reviewers 0.2 min; gate cost $2.188/task; 54.7 h/month
+Lab 31: REPRODUCED

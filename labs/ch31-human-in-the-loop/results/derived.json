@@ -1,0 +1,31 @@
+{
+  "reviews_per_month_by_risk": {
+    "high": 300,
+    "medium": 225,
+    "low": 22
+  },
+  "reviews_per_month_total": 547,
+  "review_share_of_tasks_pct": 36.5,
+  "review_minutes_each": 6,
+  "reviewer_hours_per_month": 54.7,
+  "reviewer_hours_per_day_2_reviewers": 1.37,
+  "stp_rate_pct": 63.5,
+  "queue_lambda_per_h": 3.42,
+  "queue_rho_c1": 0.342,
+  "queue_wait_min_c1": 3.1,
+  "queue_rho_c2": 0.171,
+  "queue_wait_min_c2": 0.2,
+  "reviewer_accuracy_at_6_per_hour": 0.95,
+  "reviewer_accuracy_at_10_per_hour": 0.95,
+  "reviewer_accuracy_at_20_per_hour": 0.75,
+  "reviewer_accuracy_at_30_per_hour": 0.55,
+  "rubber_stamp_floor_s": 20,
+  "seeded_defect_share_pct": 2,
+  "seeded_per_month": 10,
+  "rejection_rate_pct_illustrative": 8,
+  "rejections_per_month": 43,
+  "gate_cost_per_task_usd": 2.188,
+  "approval_timer_h": 24,
+  "expiry_share_pct_illustrative": 5,
+  "timestamp": "2026-09-23T11:00:12.343117+00:00"
+}

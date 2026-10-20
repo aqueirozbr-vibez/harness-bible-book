@@ -1,0 +1,44 @@
+{
+  "tools_total": 20,
+  "tokens_per_tool_schema": 90,
+  "schema_tokens_all": 1800,
+  "tools_per_class": 9,
+  "schema_tokens_per_class": 810,
+  "schema_saving_pct": 55,
+  "anthropic_code_exec_example_before": 150000,
+  "anthropic_code_exec_example_after": 2000,
+  "anthropic_code_exec_reduction_pct": 98.7,
+  "scenario_raw_result": 8000,
+  "scenario_filtered": 400,
+  "scenario_reduction_pct": 95,
+  "risk_classes": {
+    "read": 4,
+    "validate": 1,
+    "draft_write": 1,
+    "submit_write_gated": 1,
+    "notify_external": 1
+  },
+  "token_lifetime_min": 15,
+  "static_key_lifetime_days_illustrative": 180,
+  "exposure_ratio": 17280,
+  "sandbox_startup_s_range": [
+    0.2,
+    1.0
+  ],
+  "egress_allowlist": [
+    "gateway",
+    "historian-broker",
+    "cmms-api"
+  ],
+  "mcp_methods": [
+    "initialize",
+    "tools/list",
+    "tools/call",
+    "resources/list",
+    "resources/read",
+    "prompts/list",
+    "prompts/get"
+  ],
+  "p_task_no_tool_failure_2pct_11calls": 0.801,
+  "timestamp": "2026-09-23T11:00:11.697664+00:00"
+}

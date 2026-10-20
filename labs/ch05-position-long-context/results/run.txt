@@ -1,0 +1,16 @@
+relative-position identity: max |score(m,n) − score(m+s,n+s)| = 4.16e-11
+score changes when m − n changes: True
+base 10000 longest           chapter 54410  computed 54410  OK
+base 10000 pairs > 8192      chapter 14  computed 14  OK
+base 10000 pairs > 131072    chapter 0  computed 0  OK
+base 500000 longest          chapter 2559196  computed 2559196  OK
+base 500000 pairs > 8192     chapter 29  computed 29  OK
+base 500000 pairs > 131072   chapter 15  computed 15  OK
+NTK base for scale  4:            chapter 40890  computed 40890  OK
+NTK base for scale 16:            chapter 167199  computed 167199  OK
+ratio 128K/6K attention      chapter 477  derived 477  OK
+KV GB at 128K                chapter 41.9  derived 41.9  OK
+monthly $ fill               chapter 9830  derived 9830  OK
+monthly $ retrieve           chapter 450  derived 450  OK
+rotation preserves norms: True
+Lab 05: REPRODUCED

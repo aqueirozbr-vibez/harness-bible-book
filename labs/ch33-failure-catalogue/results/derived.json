@@ -1,0 +1,251 @@
+{
+  "modes": [
+    {
+      "id": "F01",
+      "name": "Confabulated citation",
+      "family": "model",
+      "consequence": 4,
+      "detection": "citation sensor (deterministic)",
+      "chapters": [
+        13,
+        20,
+        26
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Wrong equipment identity",
+      "family": "representation",
+      "consequence": 5,
+      "detection": "register + scope filter (deterministic)",
+      "chapters": [
+        1,
+        2,
+        14,
+        17
+      ]
+    },
+    {
+      "id": "F03",
+      "name": "Stale revision cited",
+      "family": "knowledge",
+      "consequence": 4,
+      "detection": "currency filter + citation sensor",
+      "chapters": [
+        7,
+        20
+      ]
+    },
+    {
+      "id": "F04",
+      "name": "Injection via tool result",
+      "family": "security",
+      "consequence": 5,
+      "detection": "intent validation + policy engine + egress",
+      "chapters": [
+        25,
+        28
+      ]
+    },
+    {
+      "id": "F05",
+      "name": "Scope drift / unplanned action",
+      "family": "control",
+      "consequence": 4,
+      "detection": "plan conformance + intent validation",
+      "chapters": [
+        17,
+        22
+      ]
+    },
+    {
+      "id": "F06",
+      "name": "Silent routing degradation",
+      "family": "economics",
+      "consequence": 3,
+      "detection": "retention interval per class",
+      "chapters": [
+        15,
+        23
+      ]
+    },
+    {
+      "id": "F07",
+      "name": "Window flooding / context rot",
+      "family": "context",
+      "consequence": 3,
+      "detection": "assembler budget + tokens-per-step alarm",
+      "chapters": [
+        19
+      ]
+    },
+    {
+      "id": "F08",
+      "name": "Poisoned memory recurrence",
+      "family": "memory",
+      "consequence": 4,
+      "detection": "provenance at filing + citation sensor",
+      "chapters": [
+        24
+      ]
+    },
+    {
+      "id": "F09",
+      "name": "Retry as repair / repair loop",
+      "family": "loop",
+      "consequence": 2,
+      "detection": "repair cap + attempt histogram",
+      "chapters": [
+        21,
+        22
+      ]
+    },
+    {
+      "id": "F10",
+      "name": "Duplicate write on retry",
+      "family": "durability",
+      "consequence": 4,
+      "detection": "idempotency key + diff sensor",
+      "chapters": [
+        21
+      ]
+    },
+    {
+      "id": "F11",
+      "name": "Uncalibrated grader",
+      "family": "evaluation",
+      "consequence": 3,
+      "detection": "quarterly \u03ba + override rate",
+      "chapters": [
+        27
+      ]
+    },
+    {
+      "id": "F12",
+      "name": "Rubber-stamped approval",
+      "family": "human",
+      "consequence": 4,
+      "detection": "seeded items + time floor",
+      "chapters": [
+        31
+      ]
+    },
+    {
+      "id": "F13",
+      "name": "Wrong abstention (over- or under-refusal)",
+      "family": "model",
+      "consequence": 3,
+      "detection": "abstention threshold + golden probes",
+      "chapters": [
+        8,
+        13
+      ]
+    },
+    {
+      "id": "F14",
+      "name": "Cache-breaking prefix drift",
+      "family": "economics",
+      "consequence": 2,
+      "detection": "cache hit-rate alarm + byte diff",
+      "chapters": [
+        15,
+        18
+      ]
+    },
+    {
+      "id": "F15",
+      "name": "Credential exposure",
+      "family": "security",
+      "consequence": 5,
+      "detection": "secret scanner (deterministic)",
+      "chapters": [
+        25,
+        28
+      ]
+    }
+  ],
+  "count": 15,
+  "by_family": {
+    "model": 2,
+    "representation": 1,
+    "knowledge": 1,
+    "security": 2,
+    "control": 1,
+    "economics": 2,
+    "context": 1,
+    "memory": 1,
+    "loop": 1,
+    "durability": 1,
+    "evaluation": 1,
+    "human": 1
+  },
+  "deterministic_detection": 11,
+  "needs_inferential_or_human": 4,
+  "consequence_5": 3,
+  "mean_consequence": 3.67,
+  "per_1000_before_after_illustrative": {
+    "F01": [
+      60,
+      2
+    ],
+    "F02": [
+      150,
+      3
+    ],
+    "F03": [
+      60,
+      1
+    ],
+    "F04": [
+      40,
+      0
+    ],
+    "F05": [
+      30,
+      0
+    ],
+    "F06": [
+      80,
+      8
+    ],
+    "F07": [
+      50,
+      2
+    ],
+    "F08": [
+      90,
+      0
+    ],
+    "F09": [
+      70,
+      10
+    ],
+    "F10": [
+      5,
+      0
+    ],
+    "F11": [
+      120,
+      25
+    ],
+    "F12": [
+      100,
+      15
+    ],
+    "F13": [
+      40,
+      12
+    ],
+    "F14": [
+      300,
+      10
+    ],
+    "F15": [
+      3,
+      0
+    ]
+  },
+  "total_before": 1198,
+  "total_after": 88,
+  "timestamp": "2026-09-23T11:00:12.748736+00:00"
+}

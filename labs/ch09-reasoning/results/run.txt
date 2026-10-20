@@ -1,0 +1,12 @@
+majority p=0.6 k= 5: formula 0.683  simulated 0.687  chapter 0.683  OK
+majority p=0.6 k=21: formula 0.826  simulated 0.824  chapter 0.826  OK
+majority p=0.7 k=11: formula 0.922  simulated 0.920  chapter 0.922  OK
+coverage p=0.3 n= 4: formula 0.760  simulated 0.757  OK
+coverage p=0.3 n=16: formula 0.997  simulated 0.997  OK
+best-of-16 p=0.3 tpr=0.9 fpr=0.0: formula 0.995  simulated 0.994  chapter 0.995  OK
+best-of-16 p=0.3 tpr=0.9 fpr=0.2: formula 0.658  simulated 0.656  chapter 0.658  OK
+best-of-16 p=0.3 tpr=0.9 fpr=0.5: formula 0.435  simulated 0.438  chapter 0.435  OK
+sandwich: 4000 reasoning tokens vs all-high 22000 (saving 82%) OK
+cost multiplier at 2000 reasoning tokens: 6.0× (chapter 6.0) OK
+cost multiplier at 8000 reasoning tokens: 21.0× (chapter 21.0) OK
+Lab 09: REPRODUCED

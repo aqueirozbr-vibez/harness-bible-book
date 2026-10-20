@@ -1,0 +1,19 @@
+F01: clean → None; injected → F01: quoted span not in chunk  [ok]
+F02: clean → None; injected → F02: tag not in register  [ok]
+F03: clean → None; injected → F03: cited revision superseded  [ok]
+F04: clean → None; injected → F04/F05: external communication not permitted by task  [ok]
+F05: clean → None; injected → F05: asset outside scope  [ok]
+F06: clean → None; injected → F06: retention interval below zero after routing change  [ok]
+F07: clean → None; injected → F07: sections over budget ['results']  [ok]
+F08: clean → None; injected → F08: fact without provenance/review refused  [ok]
+F09: clean → None; injected → F09: retry where repair was needed (call unchanged)  [ok]
+F10: clean → None; injected → F10: duplicate write (same key twice)  [ok]
+F11: clean → None; injected → F11: grader κ below 0.6 or override rate high  [ok]
+F12: clean → None; injected → F12: rubber-stamp signal (time floor or seeded catch)  [ok]
+F13: clean → None; injected → F13: answered where the corpus is silent  [ok]
+F14: clean → None; injected → F14: prefix bytes changed / cache hit rate collapsed  [ok]
+F15: clean → None; injected → F15: secret in model-visible text  [ok]
+sixteenth invariant: write tools targeting OT: none
+chapters with a citation-related failure row: 22 (chapter cites this count)
+catalogue: 15 modes; deterministic 11; inferential/human 4; before 1198 → after 88 per 1,000 (illustrative)
+Lab 33: REPRODUCED

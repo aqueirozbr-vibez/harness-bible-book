@@ -1,0 +1,31 @@
+{
+  "with_limit": {
+    "tasks": 1500,
+    "reviewed": 547,
+    "stp_rate": 0.635,
+    "rejection_rate": 0.121,
+    "seeded": 8,
+    "seeded_catch_rate": 1.0,
+    "rubber_stamp_flags": 0,
+    "mean_wait_h": 0.174,
+    "to_repair": 52,
+    "escalated": 14
+  },
+  "no_limit": {
+    "tasks": 1500,
+    "reviewed": 547,
+    "stp_rate": 0.635,
+    "rejection_rate": 0.121,
+    "seeded": 8,
+    "seeded_catch_rate": 1.0,
+    "rubber_stamp_flags": 0,
+    "mean_wait_h": 0.174,
+    "to_repair": 52,
+    "escalated": 14
+  },
+  "catch": [
+    0.945,
+    0.6545
+  ],
+  "timestamp": "2026-09-23T11:00:12.358441+00:00"
+}

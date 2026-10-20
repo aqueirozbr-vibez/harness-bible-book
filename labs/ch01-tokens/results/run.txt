@@ -1,0 +1,10 @@
+V=  300: tokens/1000 words   4549; round trip True; tags {'P-101': 4, 'MP-0417': 6, 'SEAL-88': 7, 'ISO 14224': 9}; words {'pump': 4, 'seal': 2, 'permit': 2, 'bomba': 5, 'procedimento': 5}
+V=  600: tokens/1000 words   2225; round trip True; tags {'P-101': 3, 'MP-0417': 3, 'SEAL-88': 3, 'ISO 14224': 3}; words {'pump': 1, 'seal': 1, 'permit': 1, 'bomba': 1, 'procedimento': 1}
+V= 1200: tokens/1000 words   2225; round trip True; tags {'P-101': 3, 'MP-0417': 3, 'SEAL-88': 3, 'ISO 14224': 3}; words {'pump': 1, 'seal': 1, 'permit': 1, 'bomba': 1, 'procedimento': 1}
+tokens per 1,000 words non-increasing with vocabulary: True
+pre-tokenizer splits letter/digit/punctuation: True ['P', '-', '101', ' ', 'MP', '-', '0417']
+Llama 3 8B embed params      chapter 525336576  derived 525336576  OK
+Llama 3 8B embed share %     chapter 13.1  derived 13.1  OK
+PT tokens/1000 words         chapter 2000  derived 2000  OK
+PT words per 512-token chunk chapter 256  derived 256  OK
+Lab 01: REPRODUCED

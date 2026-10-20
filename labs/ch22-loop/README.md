@@ -1,0 +1,3 @@
+# Lab 22 — The agent loop
+
+Runs the chapter's reference loop (`loop.py`, extracted verbatim from Chapter 22) with a seeded stochastic model stub — labelled simulation: first-attempt success 0.60, repair success 0.50 — and real deterministic sensors over 2,000 eleven-step tasks. Reproduces the repair-cap arithmetic of 22.3 (step pass 0.95, calls per step 1.70, task pass 57% at cap 3; 0.4% at cap 0) and demonstrates that a transient tool error is retried in the tool layer without a model call. CPU, seconds. `python run.py`; exit 0 = reproduced. The effect sizes on a real workload are the reader's golden set (ch16 two-scaffold test).

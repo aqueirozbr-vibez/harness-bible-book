@@ -1,0 +1,3 @@
+# Lab 23 — Model layer, routing, gateways
+
+Runs the chapter's code (`routing.py`, extracted verbatim from Chapter 23) on a simulated 300-item golden set with hidden difficulty and per-tier pass probabilities (stubs, labelled; seed 23). Reproduces the task-cost arithmetic and the 14% / 78% savings, cascade routing with a deterministic verifier reported as saving and retention with paired-bootstrap intervals, classifier routing at two accuracies showing silent degradation in the retention interval, the gateway's hard cap stopping a runaway loop and its fallback engaging on an unavailable tier, and the availability arithmetic. CPU, seconds. `python run.py`; exit 0 = reproduced. The plant's routed share and retention come from its golden set with its models (23.4).

@@ -1,0 +1,17 @@
+n=  256  median attention time      1.6 ms
+n=  512  median attention time      4.9 ms
+n= 1024  median attention time     16.2 ms
+n= 2048  median attention time     64.7 ms
+n= 4096  median attention time    307.6 ms
+
+fitted exponent (slope of log t vs log n): 1.89   max |residual| 0.16
+chapter states: quadratic (exponent 2).  REPRODUCED (tolerance 1.7–2.3)
+
+KV cache bytes per token (FP16, 2 bytes):
+  Llama 3 8B      131,072 B =    128 KB   without GQA    512 KB   chapter   131,072  OK
+  Llama 3 70B     327,680 B =    320 KB   without GQA   2560 KB   chapter   327,680  OK
+  Llama 3 405B    516,096 B =    504 KB   without GQA   8064 KB   chapter   516,096  OK
+
+GQA (8 query heads, 2 KV heads) equals MHA with broadcast KV: True
+
+results/run.json written

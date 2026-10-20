@@ -1,0 +1,3 @@
+# Lab 25 — Tools, MCP, execution environments
+
+Runs the chapter's host, JSON-RPC server, sandbox, vault, and secret scanner (`tools.py`, extracted verbatim from Chapter 25's first code block). Three tools over the channel in a sandbox with an egress allow-list and a vault-issued 15-minute token. Reproduces tool listing with sampling off, a gated write escalating without an approval id and succeeding with one, schema rejection, egress denial, an injected instruction in a tool result whose induced calls are refused by the policy hook, result trimming with the id kept, and a secret scan over every model-visible text returning zero hits. CPU, seconds. `python run.py`; exit 0 = reproduced.

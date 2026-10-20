@@ -1,0 +1,9 @@
+forward shape in/out: (16, 4096) (16, 4096)
+block is identity when sub-blocks contribute zero (residual stream): True
+block adds a non-zero update with real weights: True
+causal mask holds: True
+Llama 3 8B    counted    8.030B  published   8.03B  diff +0.00%  matches derive.py: True
+Llama 3 70B   counted   70.554B  published  70.60B  diff -0.07%  matches derive.py: True
+Llama 3 405B  counted  405.853B  published 405.90B  diff -0.01%  matches derive.py: True
+FFN share of layer (70B): 82.4 %
+Lab 03: REPRODUCED

@@ -1,0 +1,3 @@
+# Lab 31 — Human-in-the-loop
+
+Runs the chapter's gate code (`gate.py`, extracted verbatim from Chapter 31) over a simulated month of 1,500 tasks with the scenario's risk mix and reviewers whose accuracy decays with load (stub, labelled; seed 31). Reproduces the reviewed share and STP rate from routing by risk, the rejection rate, seeded-item catch rate and rubber-stamp flags with and without the rate limit, the coded rejection split into repair vs escalation, the fatigue model's accuracy at 20 and 30 per hour, and the queue arithmetic. CPU, seconds. `python run.py`; exit 0 = reproduced. Real reviewer catch rates (31.4) come from the plant's seeded items.

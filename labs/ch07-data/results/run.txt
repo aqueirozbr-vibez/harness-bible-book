@@ -1,0 +1,7 @@
+LSH 14x8 flag rate at Jaccard 0.5: simulated 0.06  formula 0.053  OK
+LSH 14x8 flag rate at Jaccard 0.7: simulated 0.57  formula 0.565  OK
+LSH 14x8 flag rate at Jaccard 0.8: simulated 0.93  formula 0.924  OK
+LSH 14x8 flag rate at Jaccard 0.9: simulated 1.00  formula 1.000  OK
+revision pairs recalled at ≥0.8: 1.000 (300/300); templated pairs flagged: 0
+contamination: leaked ['q11', 'q37', 'q38', 'q41', 'q48']; detected ['q11', 'q37', 'q38', 'q41', 'q48']; false hits []
+Lab 07: REPRODUCED

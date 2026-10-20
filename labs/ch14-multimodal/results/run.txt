@@ -1,0 +1,10 @@
+patches 224px/14: 256 (chapter 256) OK
+patches 336px/14: 576 (chapter 576) OK
+patches 1024px/14: 5329 (chapter 5329) OK
+A4 scan 300dpi (2480x3508): 35 tiles, 9216 tokens (chapter 35, 9216) OK
+P&ID sheet (3000x2000): 24 tiles, 6400 tokens (chapter 24, 6400) OK
+phone photo (4032x3024): 48 tiles, 12544 tokens (chapter 48, 12544) OK
+corpus image/text ratio 18.4 (chapter 18.4)
+exact before validation 0.969 (chapter ~0.904); after 1.000 (chapter ~0.996); confirmed 4846 corrected 154 flagged 0; wrong-and-not-flagged 0
+validation improves exact-match and never silently guesses a wrong tag beyond the 1-edit-unique rule: True
+Lab 14: REPRODUCED

@@ -1,0 +1,21 @@
+{
+  "records_per_task": 49,
+  "metadata_bytes_per_task": 29400,
+  "raw_text_bytes_per_task": 332800,
+  "metadata_GB_per_month": 0.0441,
+  "raw_text_GB_per_month": 0.499,
+  "raw_text_GB_per_year": 5.99,
+  "p_incident_trace_kept_s0.1": 0.1,
+  "p_all5_kept_s0.1": 0.0,
+  "p_incident_trace_kept_s0.5": 0.5,
+  "p_all5_kept_s0.5": 0.0312,
+  "p_incident_trace_kept_s1.0": 1.0,
+  "p_all5_kept_s1.0": 1.0,
+  "p_all5_tags_present_at_95_each": 0.774,
+  "hashes_per_month": 73500,
+  "verify_seconds_per_month_at_1e6_per_s": 0.073,
+  "replay_ms_per_task_at_1ms_per_record": 49,
+  "export_month_seconds_at_1ms_per_record": 73.5,
+  "cold_retention_metadata_GB_5y": 2.65,
+  "timestamp": "2026-09-23T11:00:12.127591+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "expected_guess_cost_g0.2_c0.5": 2.042,
+  "expected_guess_cost_g0.2_c0.9": 0.412,
+  "expected_guess_cost_g0.5_c0.5": 5.105,
+  "expected_guess_cost_g0.5_c0.9": 1.029,
+  "cost_clarify": 2.0,
+  "cost_per_wrong_guess_c0.9": 2.058,
+  "breakeven_g_ask_vs_guess_c0.9": 0.972,
+  "cost_per_wrong_guess_c0.5": 10.21,
+  "breakeven_g_ask_vs_guess_c0.5": 0.196,
+  "intake_mix": {
+    "technician_chat": 0.6,
+    "cmms_webhook": 0.25,
+    "scheduled": 0.1,
+    "api": 0.05
+  },
+  "daily_requests": 2000,
+  "criteria_total": 11,
+  "criteria_checkable": 9,
+  "criteria_coverage_pct": 81.8,
+  "clarification_rate_a0.3_s0.0": 0.3,
+  "clarification_rate_a0.3_s0.5": 0.15,
+  "clarification_rate_a0.3_s0.8": 0.06,
+  "offscope_reaching_tools_i0.02_k0.9": 0.002,
+  "offscope_reaching_tools_i0.02_k0.99": 0.0002,
+  "timestamp": "2026-09-23T11:00:10.552163+00:00"
+}

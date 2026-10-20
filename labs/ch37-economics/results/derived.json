@@ -1,0 +1,57 @@
+{
+  "queries_per_month": 60000,
+  "A": {
+    "fi": 450.0,
+    "ci": 0,
+    "o": 360.0,
+    "total": 810.0
+  },
+  "B": {
+    "fi": 150.0,
+    "ci": 30.0,
+    "o": 360.0,
+    "total": 540.0
+  },
+  "C": {
+    "fi": 42.0,
+    "ci": 8.4,
+    "o": 187.19999999999996,
+    "total": 237.59999999999997
+  },
+  "D": {
+    "fi": 0,
+    "ci": 0,
+    "o": 0,
+    "comp": 4365.400000000001,
+    "ops": 1309.6200000000003,
+    "total": 5675.02
+  },
+  "saving_A_to_C_pct": 70.7,
+  "saving_A_to_B_pct": 33.3,
+  "breakeven_vs_B_queries": 630558,
+  "breakeven_vs_B_x": 10.5,
+  "breakeven_vs_C_queries": 1433086,
+  "breakeven_vs_C_x": 23.9,
+  "sensitivity_B": {
+    "tout": {
+      "400": 540,
+      "800": 780
+    },
+    "esc": {
+      "0.0": 420,
+      "0.1": 540,
+      "0.3": 780
+    },
+    "qpd": {
+      "2000": 540,
+      "20000": 5400
+    }
+  },
+  "multiagent_C_total_at_15x": 3564,
+  "timestamp": "2026-09-23T11:00:12.794700+00:00",
+  "D_total_ops2.0": 8731,
+  "C_total_route70": 305,
+  "saving_A_to_C_route70_pct": 62.4,
+  "breakeven_vs_B_x_ops2.0": 16.2,
+  "breakeven_vs_C_x_ops2.0": 36.7
+}

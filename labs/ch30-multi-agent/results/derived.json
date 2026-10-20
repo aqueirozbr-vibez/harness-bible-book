@@ -1,0 +1,37 @@
+{
+  "agent_over_chat_x": 4,
+  "multiagent_over_chat_x": 15,
+  "multiagent_over_single_agent_x": 3.75,
+  "single_task_tokens": 78000,
+  "multi_task_tokens_at_3.75x": 292500,
+  "single_task_cost_C": 0.159,
+  "multi_task_cost_C": 0.595,
+  "monthly_C_single": 238,
+  "monthly_C_multi_all_tasks": 892,
+  "ch37_multi_15x_over_single_usd": 3564,
+  "sequential_s": 120,
+  "parallel_wall_s": 50,
+  "speedup_x": 2.4,
+  "extra_cost_per_task_multi": 0.436,
+  "breakeven_quality_gain_pts_at_150_per_failure": 0.29,
+  "two_independent_miss": 0.04,
+  "two_correlated_miss_illustrative": 0.15,
+  "intersection_example": {
+    "parent": [
+      "P-101-U3",
+      "P-102-U3"
+    ],
+    "delegation": [
+      "P-101-U3",
+      "P-104-U2"
+    ],
+    "child": [
+      "P-101-U3"
+    ]
+  },
+  "mast_modes": 14,
+  "mast_categories": 3,
+  "parent_calls": 13,
+  "child_calls": 4,
+  "timestamp": "2026-09-23T11:00:12.289660+00:00"
+}

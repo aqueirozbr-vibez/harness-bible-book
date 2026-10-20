@@ -1,0 +1,9 @@
+distinct hashes over 100 assemblies: 1
+prefix tokens 4069 (scenario 4,000; stand-in tokenizer); budget {'identity': 790, 'instructions': 316, 'rules': 276, 'tools': 1748, 'examples': 702, 'contract': 237}; cache minimum met: True
+volatile date refused: volatile content in prefix: \b20\d\d-\d\d-\d\d\b
+volatile task id refused: volatile content in prefix: \bt-\d{4,}\b
+volatile time refused: volatile content in prefix: \b\d{1,2}:\d\d\b
+pairing: 9/12 enforced (75%); unenforced ['r10', 'r11', 'r12']  OK
+prefix first and instruction last: True
+timestamp at token 200 of 4,000 → 3800 tokens uncached (95%)
+Lab 18: REPRODUCED

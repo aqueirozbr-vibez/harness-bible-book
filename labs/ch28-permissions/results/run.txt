@@ -1,0 +1,6 @@
+golden set: 11 cases, false-deny 0, false-allow 0
+in-process PDP latency ms: p50 0.0072  p95 0.0090  p99 0.0208  (chapter target p99 < 10 ms)
+engine unavailable → deny pdp_unavailable
+audit chain: 5 records verified
+after tampering record 1: record 1: hash mismatch
+results/run.json written

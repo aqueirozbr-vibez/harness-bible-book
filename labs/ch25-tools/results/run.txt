@@ -1,0 +1,9 @@
+tools/list: ['read_equipment_history', 'validate_work_order', 'submit_work_order'] | sampling: False
+read result (trimmed, labelled): [result read_equipment_history#1 — untrusted content] {"rows": [{"date": "2026-0 …
+malformed call: invalid argument asset_id
+egress: egress to vendor-mail.example denied by allow-list
+induced submit: [tool submit_work_order escalate] submission requires an approval id
+induced notify: [tool notify deny] task permits no external communication
+secret scan over 4 model-visible texts: 0 hits (token issued: yes, ttl 15 min)
+submit with approval: [result submit_work_order#4 — untrusted content] {"order_id"
+Lab 25: REPRODUCED

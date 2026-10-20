@@ -1,0 +1,10 @@
+correct drafts 1204: false positives 0
+  schema           defective  156  false negatives 0
+  zone_registered  defective  173  false negatives 0
+  citation         defective  146  false negatives 0
+  permit_rule      defective  166  false negatives 0
+  parts_in_bom     defective  155  false negatives 0
+defective drafts reaching the grader under cheap-first fail-fast: 0 of 796
+messages name a field, are under 300 chars, and carry no artifact free text: True (796 messages)
+execution order: ['schema', 'zone_registered', 'citation', 'permit_rule', 'parts_in_bom', 'grader']
+Lab 26: REPRODUCED

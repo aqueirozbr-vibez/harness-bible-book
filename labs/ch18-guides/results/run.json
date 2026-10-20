@@ -1,0 +1,16 @@
+{
+  "hash": "6c92f8180a9ff30a",
+  "tokens": 4069,
+  "pairing": {
+    "rules": 12,
+    "enforced": 9,
+    "enforced_pct": 75,
+    "unenforced": [
+      "r10",
+      "r11",
+      "r12"
+    ],
+    "sensor_without_golden_case": []
+  },
+  "timestamp": "2026-09-23T11:00:10.687155+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "window_per_step": 6000,
+  "prefix": 4000,
+  "dynamic": 2000,
+  "dynamic_split": {
+    "retrieved_chunks": 1000,
+    "compacted_history": 400,
+    "memory_facts": 150,
+    "task_and_step": 250,
+    "instruction": 200
+  },
+  "uncompacted_window_iter1": 6000,
+  "uncompacted_window_iter4": 10500,
+  "uncompacted_window_iter8": 16500,
+  "uncompacted_window_iter16": 28500,
+  "uncompacted_growth_x_iter16": 4.8,
+  "compacted_window_any_iter": 6000,
+  "tokens_per_task_uncompacted_13_calls": 195000,
+  "tokens_per_task_compacted_13_calls": 78000,
+  "compaction_saving_pct": 60,
+  "chunk_start_fraction_compacted": 0.67,
+  "chunk_start_fraction_uncompacted_iter16_history_first": 0.93,
+  "raw_tool_result_tokens": 8000,
+  "filtered_tool_result_tokens": 400,
+  "summary_tool_result_tokens": 150,
+  "trim_ratio_raw_to_filtered": 20,
+  "fresh_cost_per_task_compacted": 0.0325,
+  "fresh_cost_per_task_uncompacted": 0.1787,
+  "monthly_fresh_compacted_1500_tasks": 49,
+  "monthly_fresh_uncompacted_1500_tasks": 268,
+  "retrieved_share_of_dynamic_pct": 50,
+  "timestamp": "2026-09-23T11:00:10.736813+00:00"
+}

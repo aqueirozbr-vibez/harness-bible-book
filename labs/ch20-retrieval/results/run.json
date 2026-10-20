@@ -1,0 +1,11 @@
+{
+  "recall_hybrid_rerank": 1.0,
+  "stale_with": 0.0,
+  "stale_without": 0.6667,
+  "coverage": {
+    "claims": 6,
+    "cited_valid": 3,
+    "coverage": 0.5
+  },
+  "timestamp": "2026-09-23T11:00:10.948049+00:00"
+}

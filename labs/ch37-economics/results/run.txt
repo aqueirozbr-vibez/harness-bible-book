@@ -1,0 +1,11 @@
+A: chapter 810  derived 810  OK
+B: chapter 540  derived 540  OK
+C: chapter 238  derived 238  OK
+D: chapter 5675  derived 5675  OK
+saving_A_to_C_pct: chapter 70.7  derived 70.7  OK
+breakeven_vs_B_x: chapter 10.5  derived 10.5  OK
+breakeven_vs_C_x: chapter 23.9  derived 23.9  OK
+C_total_route70: chapter 305  derived 305  OK
+D_total_ops2.0: chapter 8731  derived 8731  OK
+saving_A_to_C_route70_pct: chapter 62.4  derived 62.4  OK
+Lab 37: REPRODUCED

@@ -1,0 +1,47 @@
+{
+  "lsh_b14_r8": {
+    "0.5": 0.053,
+    "0.7": 0.565,
+    "0.8": 0.924,
+    "0.9": 1.0,
+    "0.95": 1.0
+  },
+  "lsh_b14_r8_threshold_approx": 0.719,
+  "lsh_b20_r5": {
+    "0.5": 0.47,
+    "0.7": 0.975,
+    "0.8": 1.0,
+    "0.9": 1.0,
+    "0.95": 1.0
+  },
+  "lsh_b20_r5_threshold_approx": 0.549,
+  "lsh_b50_r2": {
+    "0.5": 1.0,
+    "0.7": 1.0,
+    "0.8": 1.0,
+    "0.9": 1.0,
+    "0.95": 1.0
+  },
+  "lsh_b50_r2_threshold_approx": 0.141,
+  "plant_corpus_tokens": 120000000,
+  "plant_share_of_15T_pct": "0.000800",
+  "plant_tokens_per_param_if_finetuned_on_8B": 0.0149,
+  "p_no_leak_100_items_at_p0.001": 0.905,
+  "p_no_leak_100_items_at_p0.01": 0.366,
+  "fineweb_tokens": 15000000000000.0,
+  "fineweb_snapshots": 96,
+  "llama3_mix": {
+    "general": 50,
+    "math_reasoning": 25,
+    "code": 17,
+    "multilingual": 8
+  },
+  "repeat_epochs_useful": 4,
+  "plant_docs": {
+    "procedures": 3000,
+    "work_orders": 12000,
+    "histories": 4000,
+    "drawings_legends": 1000
+  },
+  "timestamp": "2026-09-23T10:59:12.658931+00:00"
+}

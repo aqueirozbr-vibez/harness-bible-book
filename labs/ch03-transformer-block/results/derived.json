@@ -1,0 +1,51 @@
+{
+  "Llama 3 8B": {
+    "attn": 41943040,
+    "ffn": 176160768,
+    "norms": 8192,
+    "layer": 218112000,
+    "layers_total": 6979584000,
+    "embed": 525336576,
+    "unembed": 525336576,
+    "total": 8030261248,
+    "attn_share_of_layer": 19.2,
+    "ffn_share_of_layer": 80.8,
+    "embed_share": 13.1,
+    "vs_published_pct": 0.0,
+    "flops_per_token_2N_nonembed_GFLOP": 14.0,
+    "flops_per_token_2N_total_GFLOP": 16.1
+  },
+  "Llama 3 70B": {
+    "attn": 150994944,
+    "ffn": 704643072,
+    "norms": 16384,
+    "layer": 855654400,
+    "layers_total": 68452352000,
+    "embed": 1050673152,
+    "unembed": 1050673152,
+    "total": 70553706496,
+    "attn_share_of_layer": 17.6,
+    "ffn_share_of_layer": 82.4,
+    "embed_share": 3.0,
+    "vs_published_pct": -0.07,
+    "flops_per_token_2N_nonembed_GFLOP": 136.9,
+    "flops_per_token_2N_total_GFLOP": 141.1
+  },
+  "Llama 3 405B": {
+    "attn": 570425344,
+    "ffn": 2617245696,
+    "norms": 32768,
+    "layer": 3187703808,
+    "layers_total": 401650679808,
+    "embed": 2101346304,
+    "unembed": 2101346304,
+    "total": 405853388800,
+    "attn_share_of_layer": 17.9,
+    "ffn_share_of_layer": 82.1,
+    "embed_share": 1.0,
+    "vs_published_pct": -0.01,
+    "flops_per_token_2N_nonembed_GFLOP": 803.3,
+    "flops_per_token_2N_total_GFLOP": 811.7
+  },
+  "timestamp": "2026-09-23T10:59:04.642005+00:00"
+}

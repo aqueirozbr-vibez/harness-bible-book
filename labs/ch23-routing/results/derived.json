@@ -1,0 +1,31 @@
+{
+  "cost_F": 0.007,
+  "cost_S": 0.0014,
+  "cost_F_high_effort": 0.027,
+  "task_cost_all_frontier_low": 0.077,
+  "task_cost_routed_sandwich": 0.0666,
+  "task_cost_all_frontier_high": 0.297,
+  "routed_vs_all_F_low_saving_pct": 14,
+  "routed_vs_all_F_high_saving_pct": 78,
+  "cascade_cost_e0.1": 0.0021,
+  "cascade_saving_e0.1_pct": 70,
+  "cascade_cost_e0.3": 0.0035,
+  "cascade_saving_e0.3_pct": 50,
+  "cascade_cost_e0.5": 0.0049,
+  "cascade_saving_e0.5_pct": 30,
+  "classifier_route_cost_r0.7": 0.00308,
+  "api_downtime_min_per_month_3nines": 43.2,
+  "effective_availability_with_onsite_99pct": 0.99999,
+  "deprecation_cycle_months_illustrative": 12,
+  "gateway_overhead_ms_illustrative": [
+    5,
+    20
+  ],
+  "golden_items": 300,
+  "routellm_headline_pct": 85,
+  "independent_realistic_pct": 35,
+  "timestamp": "2026-09-23T11:00:11.348929+00:00",
+  "sandwich_saving_pct_r500": 72,
+  "sandwich_saving_pct_r1000": 75,
+  "sandwich_saving_pct_r2000": 78
+}

@@ -1,0 +1,13 @@
+8-bit per_tensor                rel RMS err 0.0128 (chapter 0.0128)  eff bits 8.000  OK
+8-bit g128                      rel RMS err 0.0065 (chapter 0.0065)  eff bits 8.125  OK
+4-bit per_tensor                rel RMS err 0.2323 (chapter 0.2323)  eff bits 4.000  OK
+4-bit g128                      rel RMS err 0.1173 (chapter 0.1173)  eff bits 4.125  OK
+8-bit per_tensor_with_outliers  rel RMS err 0.3460 (chapter 0.346)  eff bits 8.000  OK
+8-bit g128      _with_outliers  rel RMS err 0.0130 (chapter 0.013)  eff bits 8.125  OK
+4-bit per_tensor_with_outliers  rel RMS err 0.8914 (chapter 0.8914)  eff bits 4.000  OK
+4-bit g128      _with_outliers  rel RMS err 0.1341 (chapter 0.1341)  eff bits 4.125  OK
+layer output error y=xW at 8-bit g128: 0.0065
+layer output error y=xW at 4-bit g128: 0.1175
+memory table reconciles: True
+substitution: task compute 11.0 → 3.02 units, saving 73% (chapter 73%) OK
+Lab 11: REPRODUCED

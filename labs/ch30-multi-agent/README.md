@@ -1,0 +1,3 @@
+# Lab 30 — Multi-agent systems
+
+Runs the chapter's coordinator/specialist code (`multiagent.py`, extracted verbatim from Chapter 30). One task run single- and multi-agent with tokens and calls compared; scope intersection and budget carve-out on a delegation that tries to widen; a leaky child summary refused by the parent's sensors; a child's submit, notify, and out-of-scope read denied by the narrowest-scope rule; and a simulated correlated-vs-independent checker comparison (stub, labelled; seed 30). CPU, seconds. `python run.py`; exit 0 = reproduced. The single-vs-multi pass-rate comparison on real tasks (30.4) is the plant's golden-set run.

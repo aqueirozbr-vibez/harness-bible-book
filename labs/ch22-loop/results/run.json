@@ -1,0 +1,18 @@
+{
+  "results": {
+    "0": {
+      "task_pass": 0.004,
+      "step_pass": 0.598,
+      "calls_per_step": 1
+    },
+    "3": {
+      "task_pass": 0.576,
+      "step_pass": 0.951,
+      "calls_per_step": 1.7
+    }
+  },
+  "transient_separation": true,
+  "seed": 22,
+  "n_tasks": 2000,
+  "timestamp": "2026-09-23T11:00:11.258297+00:00"
+}

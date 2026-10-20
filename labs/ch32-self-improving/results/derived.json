@@ -1,0 +1,86 @@
+{
+  "tasks": 1500,
+  "gate_rejections": 120,
+  "sensor_events": 2100,
+  "cluster_ranking": [
+    {
+      "cluster": "description mismatch (bearing vs seal)",
+      "score": 68.4,
+      "freq": 38,
+      "consequence": 2,
+      "fixability": 0.9
+    },
+    {
+      "cluster": "stale procedure revision cited",
+      "score": 66.0,
+      "freq": 22,
+      "consequence": 3,
+      "fixability": 1.0
+    },
+    {
+      "cluster": "permit type wrong for class H",
+      "score": 45.0,
+      "freq": 9,
+      "consequence": 5,
+      "fixability": 1.0
+    },
+    {
+      "cluster": "parts not in BOM",
+      "score": 28.0,
+      "freq": 14,
+      "consequence": 2,
+      "fixability": 1.0
+    },
+    {
+      "cluster": "Portuguese abbreviation unresolved",
+      "score": 24.8,
+      "freq": 31,
+      "consequence": 1,
+      "fixability": 0.8
+    }
+  ],
+  "ladder": {
+    "observation": 0.0,
+    "guide_rule": 0.92,
+    "sensor": 1.0,
+    "template_field_or_tool": 1.0
+  },
+  "rejection_rate_before_pct": 8.0,
+  "rejection_rate_after_top_fix_pct": 5.72,
+  "branch_cost_k1": 10.8,
+  "branch_cost_k3": 32.4,
+  "branch_cost_k5": 54.0,
+  "power_3pt_n300": 0.47,
+  "power_3pt_n1000": 0.88,
+  "holdout_share": 0.2,
+  "version_rule": {
+    "patch": "guide wording; sensor message; sample rate",
+    "minor": "new sensor; template field; tool; routing row",
+    "major": "loop change; policy bundle model; control-plane migration"
+  },
+  "weekly_change_budget": 3,
+  "pass_rate_curve_illustrative": [
+    84,
+    86,
+    87.5,
+    89,
+    90,
+    91
+  ],
+  "stp_curve_illustrative": [
+    50,
+    54,
+    57,
+    60,
+    62,
+    63.5
+  ],
+  "safety_review_classes": [
+    "policy bundle",
+    "safety-gate sensors",
+    "tool sets of write classes",
+    "routing of gated classes",
+    "output-policy scanners"
+  ],
+  "timestamp": "2026-09-23T11:00:12.448982+00:00"
+}

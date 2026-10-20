@@ -1,0 +1,81 @@
+{
+  "rows": [
+    [
+      "F01",
+      null,
+      "F01: quoted span not in chunk"
+    ],
+    [
+      "F02",
+      null,
+      "F02: tag not in register"
+    ],
+    [
+      "F03",
+      null,
+      "F03: cited revision superseded"
+    ],
+    [
+      "F04",
+      null,
+      "F04/F05: external communication not permitted by task"
+    ],
+    [
+      "F05",
+      null,
+      "F05: asset outside scope"
+    ],
+    [
+      "F06",
+      null,
+      "F06: retention interval below zero after routing change"
+    ],
+    [
+      "F07",
+      null,
+      "F07: sections over budget ['results']"
+    ],
+    [
+      "F08",
+      null,
+      "F08: fact without provenance/review refused"
+    ],
+    [
+      "F09",
+      null,
+      "F09: retry where repair was needed (call unchanged)"
+    ],
+    [
+      "F10",
+      null,
+      "F10: duplicate write (same key twice)"
+    ],
+    [
+      "F11",
+      null,
+      "F11: grader \u03ba below 0.6 or override rate high"
+    ],
+    [
+      "F12",
+      null,
+      "F12: rubber-stamp signal (time floor or seeded catch)"
+    ],
+    [
+      "F13",
+      null,
+      "F13: answered where the corpus is silent"
+    ],
+    [
+      "F14",
+      null,
+      "F14: prefix bytes changed / cache hit rate collapsed"
+    ],
+    [
+      "F15",
+      null,
+      "F15: secret in model-visible text"
+    ]
+  ],
+  "citation_chapters": 22,
+  "timestamp": "2026-09-23T11:00:12.758030+00:00"
+}

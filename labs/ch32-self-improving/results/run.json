@@ -1,0 +1,39 @@
+{
+  "ranking": [
+    [
+      "description",
+      68.4
+    ],
+    [
+      "citation_currency",
+      66.0
+    ],
+    [
+      "permit_rule",
+      45.0
+    ],
+    [
+      "parts_bom",
+      28.0
+    ],
+    [
+      "abbreviation",
+      24.8
+    ]
+  ],
+  "branches": {
+    "symptom_field (real)": {
+      "verdict": "merge",
+      "reason": "interval beats baseline; holdout confirms"
+    },
+    "guide_rule (overfit)": {
+      "verdict": "reject",
+      "reason": "holdout does not confirm the gain (overfit)"
+    },
+    "wording (neutral)": {
+      "verdict": "reject",
+      "reason": "development gain not distinguishable from zero"
+    }
+  },
+  "timestamp": "2026-09-23T11:00:12.695429+00:00"
+}

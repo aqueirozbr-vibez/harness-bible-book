@@ -1,0 +1,3 @@
+# Lab 26 — Sensors and verification
+
+Runs the chapter's sensor chain (`sensors.py`, extracted verbatim from Chapter 26) on 2,000 synthetic work-order drafts with one seeded defect class per sensor (labelled synthetic, seed 26). Reproduces zero false positives, zero false negatives per sensor on its target defect, cheap-first fail-fast keeping every defective draft away from the simulated grader, and the message rule (field named, under 300 characters, no artifact free text). CPU, seconds. `python run.py`; exit 0 = reproduced. The detection rates in 26.3 are design assumptions; this lab shows the chain's behaviour on defects it targets, and the reader's golden set of real rejected drafts measures the rates that matter.

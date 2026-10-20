@@ -1,0 +1,65 @@
+{
+  "wilson95_p0.8_n20": [
+    0.584,
+    0.919
+  ],
+  "wilson95_halfwidth_p0.8_n20": 0.168,
+  "wilson95_p0.95_n20": [
+    0.764,
+    0.991
+  ],
+  "wilson95_halfwidth_p0.95_n20": 0.113,
+  "wilson95_p0.8_n50": [
+    0.67,
+    0.888
+  ],
+  "wilson95_halfwidth_p0.8_n50": 0.109,
+  "wilson95_p0.95_n50": [
+    0.851,
+    0.984
+  ],
+  "wilson95_halfwidth_p0.95_n50": 0.067,
+  "wilson95_p0.8_n100": [
+    0.711,
+    0.867
+  ],
+  "wilson95_halfwidth_p0.8_n100": 0.078,
+  "wilson95_p0.95_n100": [
+    0.888,
+    0.978
+  ],
+  "wilson95_halfwidth_p0.95_n100": 0.045,
+  "wilson95_p0.8_n300": [
+    0.751,
+    0.841
+  ],
+  "wilson95_halfwidth_p0.8_n300": 0.045,
+  "wilson95_p0.95_n300": [
+    0.919,
+    0.969
+  ],
+  "wilson95_halfwidth_p0.95_n300": 0.025,
+  "wilson95_p0.8_n1000": [
+    0.774,
+    0.824
+  ],
+  "wilson95_halfwidth_p0.8_n1000": 0.025,
+  "wilson95_p0.95_n1000": [
+    0.935,
+    0.962
+  ],
+  "wilson95_halfwidth_p0.95_n1000": 0.013,
+  "power_paired_0.80_vs_0.85_n100": 0.14,
+  "power_paired_0.80_vs_0.85_n300": 0.47,
+  "power_paired_0.80_vs_0.85_n1000": 0.88,
+  "kappa_example_po": 0.85,
+  "kappa_example_pe": 0.53,
+  "kappa_example": 0.681,
+  "zheng_gpt4_agreement_pct": 85,
+  "zheng_human_human_pct": 81,
+  "p_clean_100_at_1pct": 0.366,
+  "golden_items_11_classes_100_each": 1100,
+  "golden_items_two_languages": 2200,
+  "golden_run_usd_2200_items_k4_at_0.009": 79.2,
+  "timestamp": "2026-09-23T11:00:08.929903+00:00"
+}
